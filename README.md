@@ -2,7 +2,6 @@
 <html>
   <head>
     <meta charset="UTF-8">
-    <title>Python Mini Projects</title>
   </head>
   <body>
     <h1>Python Mini Projects</h1>
