@@ -337,3 +337,8 @@ print("The { jumped over the {]".format(animal="cow", item="moon"))  # keywerd a
 
 number = 3.14159
 print("The number pi is {:. 2f]".format(number))
+#  you can write multiple lines with docstrings
+
+sentence = """ Hello there this is my docstring
+and i like it so far.
+could the real slim shady please stand up"""
