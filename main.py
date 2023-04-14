@@ -224,6 +224,20 @@ capitals = {'USA': 'Washington DC',
 
 print(capitals.keys())
 
+# Nesting Dictionary in Dictionary
+
+travel_log = {
+    "France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visited": 12},
+    "Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visited": 15},
+}
+
+# Nesting Dictionary in a List
+
+travel_log_1 = [
+    {"France": {"cities_visited": ["Paris", "Lille", "Dijon"], "total_visited": 12}},
+    {"Germany": {"cities_visited": ["Berlin", "Hamburg", "Stuttgart"], "total_visited": 15}}
+]
+
 # ---------------------------------------
 # INDEXING
 
@@ -309,3 +323,17 @@ def my_function(**kwargs):
 
 
 my_function(name="Alice", age=30, city="New York")
+
+# ---------------------------------------
+# String Formatting
+# str.format() = optional method that gives users more control when displaying output
+
+# animal= "cow"
+# item = "moon"
+
+# print("The "+animal+" jumped over the "+item)
+# print("The C jumped over the n.format (animal.item)) #orint "The Sit iumped ever the Lot n. format (animalitem) #positional argument
+print("The { jumped over the {]".format(animal="cow", item="moon"))  # keywerd argument
+
+number = 3.14159
+print("The number pi is {:. 2f]".format(number))
